@@ -71,7 +71,7 @@ This release is intended for non-commercial research on sign language translatio
 
 ## Limitations
 
-The annotations and back translations are the result of a targeted benchmark audit and should not be treated as a complete correction of the original corpus. Flags indicate reviewer judgements under the project’s annotation criteria. Absence of a flag does not necessarily mean that a segment is error-free.
+The annotations and back translations are the result of a targeted benchmark audit. Flags indicate reviewer judgements under the project’s annotation criteria. Absence of a flag does not necessarily mean that a segment is error-free.
 
 The back translations are intended as supplementary evaluation material. They should be interpreted together with the methodological description in the accompanying publication.
 
@@ -82,17 +82,24 @@ If you use this repository, please cite **both**:
 1. the accompanying paper, and
 2. the original RWTH-PHOENIX-Weather corpus papers.
 
-The full proceedings citation for the accompanying paper will be added once the proceedings are published.
-
 ### Accompanying paper
 
 ```bibtex
-@inproceedings{czehmann2026sacredbirdphoenix,
+@inproceedings{czehmann:26064:sign-lang:lrec,
   author    = {Czehmann, Vera and Yazdani, Shakib and Hamidullah, Yasser and Nunnari, Fabrizio and Avramidis, Eleftherios},
-  title     = {{"A Sacred Bird Called the Phoenix". Auditing the most-used Parallel Corpus for German Sign Language Recognition and Translation}},
-  booktitle = {Proceedings of the 12th Workshop on the Representation and Processing of Sign Languages: Language in Motion},
+  title     = {"A Sacred Bird Called the Phoenix". Auditing the most-used Parallel Corpus for {German} {Sign} {Language} Recognition and Translation},
+  pages     = {80--92},
+  editor    = {Efthimiou, Eleni and Fotinea, Stavroula-Evita and Hanke, Thomas and Hochgesang, Julie A. and Mesch, Johanna and Schulder, Marc},
+  booktitle = {Proceedings of the {LREC2026} 12th Workshop on the Representation and Processing of Sign Languages: Language in Motion},
+  maintitle = {15th International Conference on Language Resources and Evaluation ({LREC} 2026)},
+  publisher = {{European Language Resources Association (ELRA)}},
+  address   = {Palma, Mallorca, Spain},
+  day       = {16},
+  month     = may,
   year      = {2026},
-  note      = {Accepted paper. Proceedings details forthcoming.}
+  isbn      = {978-2-493814-82-1},
+  language  = {english},
+  url       = {https://www.sign-lang.uni-hamburg.de/lrec/pub/26064.html}
 }
 ```
 
